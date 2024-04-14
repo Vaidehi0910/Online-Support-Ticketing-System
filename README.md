@@ -5,14 +5,15 @@ There can be multiple users, like student, support staff and support admins.User
 When support staff has resolved an issue or concern, they will mark the ticket as resolved and notifications for all concerned users will be sent via mail (using mailhog).\
 If there are multiple queries on same issue, the support admin can convert it into FAQs with proper tags for categorization of the FAQs. New students, i.e., student who are not verified by the support admin can also access the FAQs.\
 Here are some screenshots to give you an overview.
-### Register Page
-In this page a user can register as student, support or admin using email, username and password with some constraints.\
-<img src="https://github.com/Vaidehi0910/Online-Support-Ticketing-System/assets/69051103/ab6b50dd-82d0-45a6-a1c2-e98895e97945" alt="Description of the image" width="500" height="400">
+### Register and Login Page
+In this page a user can register as student, support or admin using email, username and password with some constraints. After registration and verification by the admin, the user can login.\
+<img src="https://github.com/Vaidehi0910/Online-Support-Ticketing-System/assets/69051103/ab6b50dd-82d0-45a6-a1c2-e98895e97945" alt="Registration Page" width="450" height="400">
+<img src="https://github.com/Vaidehi0910/Online-Support-Ticketing-System/assets/69051103/513091ec-23af-4931-a82f-f4901e49e2e1" alt="Login Page" width="550" height="300">
 ### Student Home Page
 In this page, student can view their created and voted tickets, with general description of how many tickets are creates, how many tickets have you voted on, how many are resolved and how many are pending.\
-<img src="https://github.com/Vaidehi0910/Online-Support-Ticketing-System/assets/69051103/f71b2a67-a1e5-46d8-81a3-84c762f8de98" alt="Description of the image" width="700" height="400">\
+<img src="https://github.com/Vaidehi0910/Online-Support-Ticketing-System/assets/69051103/f71b2a67-a1e5-46d8-81a3-84c762f8de98" alt="Student Home Page" width="700" height="400">\
  They can perfrom delete and edit the ticket by clicking on the ticket they have created. They can edit description, tags, priority and upload images.\
-<img src="https://github.com/Vaidehi0910/Online-Support-Ticketing-System/assets/69051103/53381a3a-a926-4996-b4ef-d3b6df6fcb4d" alt="Description of the image" width="700" height="400">
+<img src="https://github.com/Vaidehi0910/Online-Support-Ticketing-System/assets/69051103/53381a3a-a926-4996-b4ef-d3b6df6fcb4d" alt="Student edit Ticket" width="700" height="400">
 
 ### Student My Ticket Page
 The student can see all the tickets creates and voted and use sort and filter to filter it out and check the status of the ticket if its resolved or not.\
